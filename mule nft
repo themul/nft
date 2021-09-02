@@ -1,0 +1,7 @@
+import { createAvatar } from '@dicebear/avatars';
+import * as style from '@dicebear/open-peeps';
+
+let svg = createAvatar(style, {
+  seed: 'mule',
+  // ... and other options
+});
